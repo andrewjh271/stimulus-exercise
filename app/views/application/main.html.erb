@@ -1,0 +1,34 @@
+<h1>hello, again</h1>
+
+<div data-controller="hello"></div>
+
+<br>
+<hr>
+
+<div data-controller="toggle">
+  <button data-action="toggle#toggleForm">Toggle Form</button>
+  <br><br>
+  <div data-toggle-target="form" class="checkbox-form">
+    <div data-toggle-target="checkboxContainer" data-action="input->toggle#toggleColor">
+      <input type="checkbox" id="green" name="color" value="green" >
+      <label for="green">Green</label>
+    </div>
+    <div data-toggle-target="checkboxContainer" data-action="input->toggle#toggleColor">
+      <input type="checkbox" id="red" name="color" value="red" >
+      <label for="red">Red</label>
+    </div>
+    <div data-toggle-target="checkboxContainer" data-action="input->toggle#toggleColor">
+      <input type="checkbox" id="blue" name="color" value="blue" >
+      <label for="blue">Blue</label>
+    </div>
+    <div data-toggle-target="checkboxContainer" data-action="input->toggle#toggleColor">
+      <input type="checkbox" id="orange" name="color" value="orange" >
+      <label for="orange">Orange</label>
+    </div>
+  </div>
+</div>
+
+<div data-controller="toggle" data-action="click->toggle#switchBox" class="box">
+  <div data-toggle-target="purpleBox" class="purple"></div>
+  <div data-toggle-target="aquaBox" class="aqua transparent"></div>
+</div>

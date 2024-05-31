@@ -18,3 +18,52 @@
  .hidden {
   display: none;
  }
+
+ .checkbox-form {
+  width: 250px;
+ }
+
+ .checkbox-form div {
+  border: 1px solid white;
+ }
+
+ .checkbox-form .green-border {
+  border:  1px solid green;
+ }
+
+ .checkbox-form .blue-border {
+  border:  1px solid blue;
+ }
+
+ .checkbox-form .red-border {
+  border:  1px solid red;
+ }
+
+ .checkbox-form .orange-border {
+  border:  1px solid orange;
+ }
+
+ .box {
+  display: flex;
+  border: 1px solid black;
+  width: 400px;
+  height: 150px;
+  margin-top: 20px;
+ }
+
+ .box div {
+  height: 100%;
+  width: 50%;
+ }
+
+ .purple {
+  background-color: purple;
+ }
+
+ .aqua {
+  background-color: aqua;
+ }
+
+ .transparent {
+  background-color: transparent;
+ }
