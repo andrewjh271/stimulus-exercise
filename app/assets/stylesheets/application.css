@@ -49,6 +49,7 @@
   width: 400px;
   height: 150px;
   margin-top: 20px;
+  margin-bottom: 50px;
  }
 
  .box div {
@@ -66,4 +67,13 @@
 
  .transparent {
   background-color: transparent;
+ }
+
+ .text-input {
+  width: 400px;
+  height:100px;
+ }
+
+ h3 {
+  color: maroon;
  }
